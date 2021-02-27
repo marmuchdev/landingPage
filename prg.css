@@ -1,0 +1,64 @@
+body{
+	background: url("praga1.png");
+	background-size: cover;
+	background-position: center;
+
+	font-family: Comfortaa;
+	color: white;
+
+}
+html{
+	height: 100%;
+}
+
+.navbar-default {
+   background-color: #f2dede;
+
+    border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: rgba(0,0,0,.075);
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: rgba(0,0,0,.075);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #999;
+}
+
+#content{
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.btn-default{
+	color:black;
+	background: #f8f8f8;
+	opacity: 0.82;
+}
+.btn-default:hover{
+	background: #f9d7d7;
+	opacity: 0.7;
+}
+
+h1{
+	font-weight: 700;
+	opacity: 0.75;
+	font-size: 6em;
+	color: white;
+}
+
+
+hr{
+	width: 400px;
+	max-width: 90%;
+    border: 1px;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
